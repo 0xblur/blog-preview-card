@@ -32,6 +32,7 @@ body {
 
 .card {
   display: grid;
+  background-color: var(--white);
   grid-template-rows: 1fr repeat(4, max-content) auto;
   max-width: 365px;
   min-width: 300px;
