@@ -22,6 +22,7 @@ html,
 }
 
 body {
+  background-color: var(--yellow);
   display: grid;
   place-items: center;
   grid-template-rows: 1fr auto;
