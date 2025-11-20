@@ -60,3 +60,8 @@ body {
   h1 {
     font-size: 1.5rem;
   }
+
+  summary {
+    text-align: justify;
+    letter-spacing: -0.4px;
+  }
