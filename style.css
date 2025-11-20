@@ -25,6 +25,7 @@ body {
   background-color: var(--yellow);
   display: grid;
   place-items: center;
+  padding: clamp(2rem, 4vw, 4rem);
   grid-template-rows: 1fr auto;
   row-gap: 1rem;
   height: 100vh;
@@ -33,16 +34,20 @@ body {
 .card {
   display: grid;
   background-color: var(--white);
+  padding: clamp(1rem, 2vw, 1.75rem);
+  width: clamp(300px, 85vw, 365px);
   grid-template-rows: 1fr repeat(4, max-content) auto;
   max-width: 365px;
   min-width: 300px;
   row-gap: clamp(0.5rem, 1vw, 1rem);
+
   .card__banner {
     img {
       width: 100%;
       border-radius: 15px;
     }
   }
+
   .card__tags {
     text-transform: capitalize;
     background-color: var(--yellow);
