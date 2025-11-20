@@ -62,7 +62,20 @@ body {
   }
 
   h1 {
-    font-size: 1.5rem;
+    a {
+      font-size: 1.5rem;
+      text-decoration: none;
+      color: black;
+    }
+
+    a:hover {
+      color: var(--yellow)
+    }
+
+    a:visited {
+      color: none;
+    }
+
   }
 
   summary {
