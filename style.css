@@ -65,3 +65,20 @@ body {
     text-align: justify;
     letter-spacing: -0.4px;
   }
+
+  .card__author {
+    display: flex;
+    gap: clamp(0.5rem, 1vw, 1rem);
+    align-items: center;
+
+    img {
+      aspect-ratio: 1;
+      height: 40px;
+    }
+
+    p {
+      font-weight: bold;
+    }
+  }
+}
+
