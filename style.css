@@ -35,3 +35,9 @@ body {
   max-width: 365px;
   min-width: 300px;
   row-gap: clamp(0.5rem, 1vw, 1rem);
+  .card__banner {
+    img {
+      width: 100%;
+      border-radius: 15px;
+    }
+  }
