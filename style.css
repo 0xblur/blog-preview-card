@@ -29,3 +29,9 @@ body {
   height: 100vh;
 }
 
+.card {
+  display: grid;
+  grid-template-rows: 1fr repeat(4, max-content) auto;
+  max-width: 365px;
+  min-width: 300px;
+  row-gap: clamp(0.5rem, 1vw, 1rem);
