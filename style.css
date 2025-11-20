@@ -41,3 +41,11 @@ body {
       border-radius: 15px;
     }
   }
+  .card__tags {
+    text-transform: capitalize;
+    background-color: var(--yellow);
+    width: fit-content;
+    padding: 0.5rem 0.75rem;
+    border-radius: 5px;
+    font-weight: bold;
+  }
